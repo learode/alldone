@@ -1,0 +1,144 @@
+html, 
+body {
+  font-family: "Raleway",sans-serif;
+  font-size: 16px;
+  line-height: 27px;
+  text-size-adjust: 100%;
+}
+
+/************** =Randon **************/
+/*****************************************/
+h1, h2,h3 {
+  font-weight: 100 !important;
+}
+.some-air-top {
+ margin-top: 6.875rem;
+}
+
+
+/* hidd the brand name for sr i think it works but me will go with bs4 */
+/* .logo h3 {
+  /* overflow: hidden;
+  width: auto;
+  height: auto;
+  white-space: nowrap;
+  background-color: forestgreen;
+  text-indent: 100%; 
+  /* display: none;
+
+} */
+
+
+
+/************** =header **************/
+/*****************************************/
+.nav-link:hover {
+  background-color: ghostwhite;
+  color: black!important;
+  border-radius: 12px 5px;
+}
+
+
+/* .fakeimg {
+  background-color: darkslategray;
+  height: 300px;
+  width: 260px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+} */
+.cover {
+  /* position: relative; */
+  height: 100vh;
+  background-color: rgb(129, 134, 143);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.mully {
+  /* position: absolute;
+  top: 45vh;
+  right: 4rem; */
+  padding: 3rem 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 7rem;
+  align-self: center;
+  text-align: center;
+}
+
+
+/************** =section about **************/
+/*****************************************/
+.row-content-mt {
+  margin-top: 30px;
+}
+
+.jumbotron {
+  border-radius: 0;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+/* the imgs height kept change thus a stoppage */
+.carousel-item img {
+  height: 300px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+
+/************** =the btn linking for works **************/
+/*****************************************/
+.bg-black {
+  color: white;
+  background-color: #000;
+  border-radius: 0;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  font-size: 18px;
+}
+.bg-black:hover {
+  color: #000;
+  background-color: rgb(206, 206, 206);
+  font-weight: 100;
+}
+
+
+.card-like {
+  width: 100%;
+  padding-bottom: 30px;
+  margin-bottom: 3rem;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+.fk-img {
+  background-color: darkgrey;
+  width: 100%;
+  height: 250px;
+  margin-top: 0;
+  margin-bottom: 5rem;
+}
+
+.stats {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.gallery {
+  padding: 0;
+  margin: .5rem !important;
+}
+
+.pg-title {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.navbar-90 { width: 90%;}
+.accord-collapse-83 {width: 83%;}
+.con-col-78 {width: 78%;}
+.cover-65 { width: 65%;}
+.card-media { width: 60%;}
+.nav-t-p-30 {width: 30%;}
+
