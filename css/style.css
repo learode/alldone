@@ -31,7 +31,7 @@ h1, h2,h3 {
 
 
 /************** =header **************/
-/*****************************************/
+/*********************************************************/
 .nav-link:hover {
   background-color: ghostwhite;
   color: black!important;
@@ -68,7 +68,7 @@ h1, h2,h3 {
 
 
 /************** =section about **************/
-/*****************************************/
+/********************************************************/
 .row-content-mt {
   margin-top: 30px;
 }
@@ -88,7 +88,7 @@ h1, h2,h3 {
 
 
 /************** =the btn linking for works **************/
-/*****************************************/
+/**********************************************************/
 .bg-black {
   color: white;
   background-color: #000;
@@ -97,7 +97,7 @@ h1, h2,h3 {
   padding-bottom: .5rem;
   font-size: 18px;
 }
-.bg-black:hover {
+.v-work:hover {
   color: #000;
   background-color: rgb(206, 206, 206);
   font-weight: 100;
@@ -130,9 +130,14 @@ h1, h2,h3 {
   margin: .5rem !important;
 }
 
-.pg-title {
+.progress-title {
   padding: 0;
   margin-bottom: 0;
+  margin-top: 1rem;
+}
+.progress {
+  border-radius: 0;
+  height: 1.5rem;
 }
 
 .navbar-90 { width: 90%;}
@@ -142,3 +147,20 @@ h1, h2,h3 {
 .card-media { width: 60%;}
 .nav-t-p-30 {width: 30%;}
 
+
+
+.price {
+  display: flex;
+  align-items: center;
+}
+address a {
+  color: rgba(0, 0, 0, 0.692);
+}
+address a:hover {
+  text-decoration: none;
+  background-color: rgb(179, 179, 179);
+  color: #000;
+  padding: .7rem;
+  font-size: 1.2rem;
+  border-radius: 5px 0 9px 5px;
+}

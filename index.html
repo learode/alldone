@@ -53,6 +53,7 @@
   </div> <!-- successfully covered -->
 
   <div class="container-fluid">
+    <!-- the about -->
     <section class="some-air-top">
       <header class="row d-flex justify-content-center text-center">
         <hgroup>
@@ -93,13 +94,13 @@
         </div>
       </main>
     </section>
-
+    <!-- carousel sample work -->
     <section class="some-air-top row jumbotron">
       <div class="col-md-6 pt-5">
         <h3>We know design.</h3>
         <p>Lorem dolor sit amet consectetur adipisicing elit. Nostrum voluptate  temporibus
           consequatur  ipsum illum disert inctio? Eveniet?</p>
-          <a class="btn bg-black border-0 position-relative" role="button" href="#worksection"> view our works
+          <a class="btn bg-black v-work border-0 position-relative" role="button" href="#worksection"> view our works
           <span class="badge bg-warning rounded-pill position-absolute top-0 start-100">Hi</span>
           <span class="visually-hidden sr-only">supprise!</span>
           </a>
@@ -166,7 +167,7 @@
       </div>
     
     </section>
-
+    <!-- the support group -->
     <section class="some-air-top">
         <header class="row d-flex justify-content-center text-center">
           <hgroup>
@@ -203,7 +204,7 @@
           </div>
         </main>
     </section>
-<!-- work statistics -->
+    <!-- work statistics -->
     <section class="stats justify-content-center text-center bg-dark">
       <div class="row justify-content-center text-white">
         <div class="col-sm-4 ml-0"><span class="display-4">05<sup>+</sup></span><p>Persons</p></div>
@@ -221,21 +222,21 @@
         </header>
         <main class="row-content-mt">
           <div class="row">
-            <div class="col-sm-4"><div class="gallery fk-img"></div></div>
-            <div class="col-sm-4"><div class="gallery fk-img"></div></div>
-            <div class="col-sm-4"><div class="gallery fk-img"></div></div>
+            <div class="col-12 col-sm-6 col-lg-3"><div class="gallery fk-img"></div></div>
+            <div class="col-12 col-sm-6 col-lg-3"><div class="gallery fk-img"></div></div>
+            <div class="col-12 col-sm-6 col-lg-3"><div class="gallery fk-img"></div></div>
+            <div class="col-12 col-sm-6 col-lg-3"><div class="gallery fk-img"></div></div>
           </div>
-          <div class="row">
-            <div class="col-sm-4"><div class="gallery fk-img"></div></div>
-            <div class="col-sm-4"><div class="gallery fk-img"></div></div>
-            <div class="col-sm-4"><div class="gallery fk-img"></div></div>
+          <!-- gutter removal is not working -->
+          <div class="row gx-0">
+            <div class="col-12 col-sm-6 col-lg-3"><div class="gallery fk-img"></div></div>
+            <div class="col-12 col-sm-6 col-lg-3"><div class="gallery fk-img"></div></div>
+            <div class="col-12 col-sm-6 col-lg-3"><div class="gallery fk-img"></div></div>
+            <div class="col-12 col-sm-6 col-lg-3"><div class="gallery fk-img"></div></div>
           </div>
         </main> 
     </section>
-
-    
-
-
+    <!-- progress chart -->
     <section class="skill some-air-top row">
       <div class="col-sm-6">
         <h2>The topics</h2>
@@ -243,33 +244,154 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quo nemo explicabo eius odit laborum reiciendis distinctio non veritatis dolore.</p>
       </div>
       <div class="col-sm-6">
-        <p class="pg-title">Navbar</p>
+        <p class="progress-title">Navbar</p>
         <div class="progress">
-          <div class="progress-bar bg-dark navbar-90 progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90% Completed</div>
+          <div class="progress-bar bg-dark navbar-90" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
           </div>
-          <p class="pg-title">cover</p>
+          <p class="progress-title">cover</p>
         <div class="progress">
-          <div class="progress-bar bg-dark  cover-65 progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65% Completed</div>
+          <!-- for animation .progress-bar-animated works with .progress-bar-striped -->
+          <div class="progress-bar bg-dark  cover-65" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
         </div>
-        <p class="pg-title">Accordion and collapse</p>
+        <p class="progress-title">Accordion and collapse</p>
         <div class="progress">
-          <div class="progress-bar bg-dark accord-collapse-83 progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100">83% Completed</div>
+          <div class="progress-bar bg-dark accord-collapse-83" role="progressbar" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100">83%</div>
         </div>
-        <p class="pg-title">Containers and col</p>
+        <p class="progress-title">Containers and col</p>
         <div class="progress">
-          <div class="progress-bar bg-dark con-col-78  progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">78% Completed</div>
+          <div class="progress-bar bg-dark con-col-78" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">78%</div>
         </div>
-        <p class="pg-title">Cards and Media</p>
+        <p class="progress-title">Cards and Media</p>
         <div class="progress">
-          <div class="progress-bar bg-dark card-media  progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60% Completed</div>
+          <div class="progress-bar bg-dark card-media" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
         </div>
         
-        <p class="pg-title">Nav tab and Nav pills</p>
+        <p class="progress-title">Nav tab and Nav pills</p>
         <div class="progress">
-          <div class="progress-bar bg-dark nav-t-p-30 progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30% Completed</div>
+          <div class="progress-bar bg-dark nav-t-p-30" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
         </div>
         
       </div>
+    </section>
+    <!-- the effort need  -->
+    <section class="price bg-secondary some-air-top row">
+      <!-- card basic -->
+      <div class="col-12 text-center text-white my-5">
+        <h2>Pricing</h2>
+        <p class="fw-light">choose the need that fits your needs.</p>
+      </div>
+      <div class="col-sm-4">
+        <article class="card  mb-5 shadow-sm">
+          <div class="card-header py-2 bg-black text-center">
+            <h3 class="card-title fw-normal">Basic</h3>
+          </div>
+          <div class="card-body text-center pb-0 px-0">
+              <ul class="list-unstyled mt-3 mb-5">
+                <li class="mb-3 fw-light"><b>1</b> PC</li>
+                <li class="mb-3 fw-light"><b>1</b> <span class="d-none d-md-inline">inter</span>Net Access</li>
+                <li class="mb-3 font-weight-light"><b>Endless Support</b></li>
+              </ul>
+              <!-- some classes works with fullname others don't -->
+              <div class="card-footer py-3">
+                <button class="btn btn-github w-100">Get In</button>
+              </div>
+          </div>
+        </article>
+      </div>
+      <!-- card pro -->
+      <div class="col-sm-4 ">
+        <article class="card mb-5 shadow-sm">
+          <div class="card-header py-2 bg-black text-white text-center">
+            <h3 class="card-title fw-normal">Pro</h3>
+          </div>
+          <div class="card-body pb-0 px-0  text-center">
+              <ul class="list-unstyled mt-3 mb-5">
+                <li class="mb-3 fw-light"><b></b> PC</li>
+                <li class="mb-3 fw-light"><b></b> <span class="d-none d-md-inline">Inter</span>Net Access</li>
+                <li class="mb-3 font-weight-light">Useful Resources</li>
+                <li class="mb-3 font-weight-light"><b>Endless Support</b></li>
+              </ul>
+              <!-- some classes works with fullname others don't -->
+              <div class="card-footer py-3">
+                <button class="btn btn-github w-100">Get In</button>
+              </div>
+          </div>
+        </article>
+      </div>
+      <!-- card premium -->
+      <div class="col-sm-4 ">
+        <article class="card mb-5 shadow-sm">
+          <div class="card-header py-2 bg-black text-white text-center">
+            <h3 class="card-title fw-normal">Premium</h3>
+          </div>
+          <div class="card-body pb-0 px-0 text-center">
+              <ul class="list-unstyled mt-3 mb-5">
+                <li class="mb-3 fw-light"><b></b> PC</li>
+                <li class="mb-3 fw-light"><b></b> <span class="d-none d-md-inline">inter</span>Net Access</li>
+                <li class="mb-3 font-weight-light">Useful Resources</li>
+                <li class="mb-3 font-weight-light">Guided Projects</li>
+                <li class="mb-3 font-weight-light"><b>Endless Support</b></li>
+              </ul>
+              <!-- some classes works with fullname others don't -->
+              <div class="card-footer py-3">
+                <button class="btn btn-github w-100">Get In</button>
+              </div>
+          </div>
+        </article>
+      </div>
+     
+      
+    </section>
+
+    <section class="contact some-air-top row">
+      <div class="col-12 bg-light text-center">
+        <h2 class="lead mb-3">CONTACT</h2>
+        <p class="fw-light">Lets get in touch. Comment a message</p>
+        <address>
+          <ul class="list-unstyled">
+            <li class="mb-3">Ngaoundal, Cameroon.</li>
+            <li>
+              <i class="fa fa-phone mr-3 mb-3"></i>
+              <a href="tel:+273676504888">+237-676-504-888</a>
+            </li>
+            <li>
+              <i class="fa fa-envelope mr-2 mb-3"></i>
+              <a href="mailto:mulfranc5@gmail.com">mulfranc5@gmail.com</a>
+            </li>
+          </ul>
+        </address>
+
+        <form action="">
+          <!-- username -->
+          <div class="nm form-group row">
+            <div class="d-sm-none col-12">
+              <label for="name" class="sr-only">Name</label>
+              <input type="text" id="name" name="name" class=" w-100 form-control" placeholder="Name" required>
+            </div>
+            <div class="d-none d-sm-flex  mx-auto">
+              <label for="firstName" class="sr-only"></label>
+              <input type="text" name="namept1" id="firstName" class="w-100 col-6 mr-3 form-control" placeholder="Fisrt Name">
+              <label for="secondName" class="sr-only"></label>
+              <input type="text" name="namept2" id="secondName" class="w-100 col-6 form-control" placeholder="Second Name">
+            </div>
+          </div>
+          <!-- email -->
+          <div class=" form-group">
+            <label for="email" class="form-label sr-only" >Email</label>
+            <input type="email" name="email" id="email" class="form-control w-75 mx-auto" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <textarea name="msg" id="msg" rows="5" class="form-control w-75 mx-auto" placeholder="Message"></textarea>
+          </div>
+          <button type="reset" class="w-25 btn btn-primary">Reset</button>
+          <button type="submit" class="w-25 btn btn-primary">Send</button>
+
+        </form>
+
+
+        <div class="some-air-top"></div>
+      </div>
+
     </section>
   </div>
 
